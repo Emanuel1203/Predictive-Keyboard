@@ -1,0 +1,208 @@
+body {
+    padding:10px;
+}
+
+.button-container {
+    float:left;
+    background-color:gainsboro;
+    width: max-content;
+    padding:10px;
+}
+
+#buttonUp, #buttonLeft, #buttonCenter, #buttonRight, #buttonDown {
+    height: 50px;
+    width: 100px;
+    background-color:whitesmoke;
+}
+
+#buttonCenter {
+    border-radius: 50%;
+}
+
+#buttonUp, #buttonDown {
+   display: block;
+   margin: auto;
+}
+
+.cursor-container {
+    float: left;
+    background-color:ghostwhite;
+    width: max-content;
+    padding: 10px 0px 10px 50px;
+    line-height: .4;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    border-left: solid black 5px;
+    
+}
+
+.cursor-container p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:900;
+    
+}
+
+#cursorTop, #cursorUp, #cursor1, #cursor2, #cursor3, #cursor5, #cursor6, #cursor7, #cursorDown, #cursorBottom {
+    color:ghostwhite;
+}
+
+#decoyPower, #decoy1, #decoy2, #decoy3, #decoy4, #decoy5, #decoy6, #decoy7, #decoy8, #decoy9, #decoy0 {
+    height: 30px;
+    width: 100px;
+    background-color:whitesmoke;
+}
+
+#decoyPower {
+    border-radius: 100%;
+    height:50px;
+    width:50px;
+}
+
+#decoy0 {
+    display:block;
+    margin:auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+  }
+
+.keyboard-container {
+    float:left;
+    background-color:ghostwhite;
+    width: max-content;
+    padding:10px 10px 10px 0px;
+    line-height:.4;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    
+}
+
+.keyboard-container p {
+    text-align:center
+}
+
+.remote-container {
+    column-gap: 0%;
+}
+
+.results-container {
+    float:left;
+    background-color:ghostwhite;
+    width: max-content;
+    padding:10px 50px 10px 10px;
+    line-height:.4;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    border-right: solid black 5px;
+}
+
+.selection-container {
+    float: left;
+    background-color:ghostwhite;
+    width: max-content;
+    padding: 10px 0px 10px 10px;
+    line-height: .4;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+    
+}
+
+.selection-container p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:900;
+    
+}
+
+#selectionTop, #selectionUp, #selection1, #selection2, #selection3, #selection4, #selection5, #selection6, #selection7, #selection8, #selection9 {
+    color:ghostwhite;
+    font-weight:bold;
+}
+
+.test-messages {
+    float:left;
+    width:100%;
+}
+
+
+.tv-container {
+    column-gap: 0%;
+}
+
+.TV-container p {
+    font-size: 48pt;
+}
+  
+.white-space {
+    float: left;
+    background-color:white;
+    width: 50px;
+    padding: 10px 0px 10px 10px;
+    line-height: .4;
+}
+#cursorTop, #cursorUp, #cursor1, #cursor2, #cursor3, #cursor4, #cursor5, #cursor6, #cursor7, #cursorDown, #cursorBottom, #keyHeader, #keyUp, #key1, #key2, #key3, #key4, #key5, #key6, #key7, #keyDown, #keyFooter, #selectionTop, #selectionUp, #selection1, #selection2, #selection3, #selection4, #selection5, #selection6, #selection7, #selection8, #selection9, #searchString, #resultUp, #result1, #result2, #result3, #result4, #result5, #result6, #result7, #result8, #result9 {
+    font-size: 19pt;
+    
+}
+
+@media screen and (max-height: 481px){
+    body {
+        padding:5px;
+    }
+    .cursor-container {
+        padding: 10px 0px 10px 10px;  
+    }
+    #decoyPower, #decoy1, #decoy2, #decoy3, #decoy4, #decoy5, #decoy6, #decoy7, #decoy8, #decoy9, #decoy0 {
+        height: 5px;
+        font-size: 2pt;
+    }
+    footer {
+        position:relative;
+    }
+    footer p {
+        font-size:0pt;
+    }
+    h1 {
+        font-size:14pt;
+    }
+    .results-container {
+        padding:10px 10px 10px 10px;
+    }
+    .white-space {
+        width: 10px;
+    }
+    #cursorTop, #cursorUp, #cursor1, #cursor2, #cursor3, #cursor4, #cursor5, #cursor6, #cursor7, #cursorDown, #cursorBottom, #keyHeader, #keyUp, #key1, #key2, #key3, #key4, #key5, #key6, #key7, #keyDown, #keyFooter, #selectionTop, #selectionUp, #selection1, #selection2, #selection3, #selection4, #selection5, #selection6, #selection7, #selection8, #selection9, #searchString, #resultUp, #result1, #result2, #result3, #result4, #result5, #result6, #result7, #result8, #result9 {
+        font-size: 14pt;
+        
+    }
+
+}
+
+
+@media screen and (max-width: 481px){
+    body {
+        padding:5px;
+    }
+    .cursor-container {
+        padding: 10px 0px 10px 10px;
+    }
+    footer {
+        position:relative;
+    }
+    footer p {
+        font-size: 0pt;
+    }
+    h1 {
+        font-size:14pt;
+    }
+    .results-container {
+        padding:10px 10px 10px 10px;
+    }
+    .white-space {
+        width: 10px;
+    }
+}
